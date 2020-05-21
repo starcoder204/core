@@ -36,6 +36,11 @@ body {
 	height: auto;
 }
 
+#body-login {
+	background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
 /* Various fonts settings */
 #body-login a {
 	color: black !important;
@@ -405,9 +410,12 @@ input::-moz-focus-inner {
 input.primary,
 button.primary,
 a.primary {
-	border: 1px solid #fff;
-	background-color: #0082c9;
+	/* border: 1px solid #fff;
+	background-color: #0082c9; */
 	color: #fff;
+	background-color: black;
+	border: none !important;
+	border-radius: 5px !important;
 	transition: color 100ms ease-in-out;
 }
 
@@ -548,7 +556,7 @@ form fieldset legend,
 form fieldset .warning-info,
 form input[type='checkbox']+label {
 	text-align: center;
-	color: #fff;
+	/* color: #fff; */
 }
 /* overrides another !important statement that sets this to unreadable black */
 form .warning input[type='checkbox']:hover+label,
@@ -823,8 +831,8 @@ form #selectDbType label span {
 	text-align: left;
 }
 .error-wide {
-	width: 700px;
-	margin-top: 35px;
+	/* width: 700px;
+	margin-top: 35px; */
 	font-size: 16px !important;
 }
 .error-wide .button {
